@@ -1,6 +1,6 @@
 ---
 - name: Install Web Server With Handlers
-  hosts: all
+  hosts: demo-server
   become: true
   become_method: sudo
   tasks:
